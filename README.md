@@ -32,4 +32,7 @@ Crafting digital experiences with code – welcome to my portfolio project where
   Enhance responsiveness by allowing users to observe real-time output while adding input values such as name and description, ensuring a dynamic and user-friendly experience.
 
 - **Automated Tech Stack Images:**
-  Implement APIs for automating the task of downloading tech stack images directly into the assets folder and import statements for images for seamless integration.
+  Implement APIs for automating the task of downloading tech stack images directly into the assets folder, complete with the necessary import statements for seamless integration.
+
+- **User-Friendly Cloning:**
+  Facilitate effortless personalization – any user can clone the repository and easily create their own portfolio by adding individual data without the need for additional coding.
