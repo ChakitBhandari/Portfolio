@@ -22,3 +22,14 @@ Crafting digital experiences with code – welcome to my portfolio project where
 
 - React.js
 - Tailwind
+
+## Future Scope
+
+- **Template Functionality:**
+  Transform the portfolio website into a template, eliminating the need for coding. Choose from a variety of backgrounds and customize colors effortlessly.
+
+- **Live Preview and Input:**
+  Enhance responsiveness by allowing users to observe real-time output while adding input values such as name and description, ensuring a dynamic and user-friendly experience.
+
+- **Automated Tech Stack Images:**
+  Implement APIs for automating the task of downloading tech stack images directly into the assets folder and import statements for images for seamless integration.
