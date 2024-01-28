@@ -15,6 +15,9 @@ export const RESUME_URL = "https://drive.google.com/file/d/169Aqso-XA1ML3s9ox6Nl
 /* Email */
 export const EMAIL_ID = "chakitbhandari22@gmail.com"
 
+/* Github profile username whoch contains the respective projects. */
+export const GITHUB_USERNAME = "ChakitBhandari";
+
 /* Home Page */
 
 // Your Name

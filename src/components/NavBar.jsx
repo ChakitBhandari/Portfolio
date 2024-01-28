@@ -50,7 +50,7 @@ const NavBar = () => {
         <ul className='hidden lg:fixed lg:top-[44%] lg:left-0 lg:flex lg:flex-col'>
             {CONTACTS.map((contact, index) => (
                 <a key={index} href={contact.link} className={`w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out`} 
-                   style={{backgroundColor: `${contact.color}`}} target='_blank'>
+                   style={{backgroundColor: `${contact.color}`}} target='_blank' rel="noreferrer">
                     <li className='flex justify-between items-center w-full text-gray-300'>
                         {contact.name}
                         {contact.element}

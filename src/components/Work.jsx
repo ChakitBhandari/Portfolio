@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import  Skeleton  from '@mui/material/Skeleton';
+import {GITHUB_USERNAME} from "../data/data";
 
 const Work = () => {
   const [projects,setProjects] = useState([]);
@@ -8,7 +9,7 @@ const Work = () => {
   const fetchGithubRepositories = async () => {
     try{
         /* Get the response from Github. */
-        const response = await fetch(`https://api.github.com/users/${process.env.REACT_APP_GITHUB_USERNAME}/repos`,
+        const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`,
                                     {headers: {Authorization: 'Bearer ' + process.env.REACT_APP_PAT}});
 
         if(!response.ok){ 
@@ -30,7 +31,7 @@ const Work = () => {
 
     for(let i=0;i<repos.length;++i){
         
-        const response = await fetch(`https://api.github.com/repos/${process.env.REACT_APP_GITHUB_USERNAME}/${repos[i].name}/contents/demoImage`,
+        const response = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${repos[i].name}/contents/demoImage`,
                                     {headers: {Authorization: 'Bearer ' + process.env.REACT_APP_PAT}});
 
         if(response.ok){
@@ -43,7 +44,7 @@ const Work = () => {
             let mainBranch = "main";
 
             /* Verify whether the main branch on the Github is master or main. */
-            const response1 = await fetch(`https://raw.githubusercontent.com/${process.env.REACT_APP_GITHUB_USERNAME}/${repos[i].name}/master/demoImage/${demoImage}`);
+            const response1 = await fetch(`https://raw.githubusercontent.com/${GITHUB_USERNAME}/${repos[i].name}/master/demoImage/${demoImage}`);
             
             if(response1.ok){
                 mainBranch = "master";
@@ -53,7 +54,7 @@ const Work = () => {
                 name:repos[i].name,
                 github:repos[i].html_url,
                 demo:repos[i].homepage,
-                image:`https://raw.githubusercontent.com/${process.env.REACT_APP_GITHUB_USERNAME}/${repos[i].name}/${mainBranch}/demoImage/${demoImage}`,
+                image:`https://raw.githubusercontent.com/${GITHUB_USERNAME}/${repos[i].name}/${mainBranch}/demoImage/${demoImage}`,
             });
         }else{
             console.error("Responded with " + response.status);
@@ -97,7 +98,7 @@ const Work = () => {
 
         {/* Projects container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {projects.length == 0 ? (
+            {projects.length === 0 ? (
                 <>
                     {[...Array(6)].map((repo, index) => (
                         <div
