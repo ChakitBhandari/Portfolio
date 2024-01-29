@@ -32,4 +32,4 @@ Crafting digital experiences with code – welcome to my portfolio project where
   Implement APIs for automating the task of downloading tech stack images directly into the assets folder, complete with the necessary import statements for seamless integration.
 
 - **User-Friendly Cloning:**
-  Facilitate effortless personalization – any user can clone the repository and easily create their own portfolio by adding individual data without the need for additional coding
+  Facilitate effortless personalization – any user can clone the repository and easily create their own portfolio by adding individual data without the need for additional coding.
