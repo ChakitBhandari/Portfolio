@@ -1,3 +1,4 @@
+/* Import Techstacks images here. */
 import github from "../assets/github.png";
 import html from "../assets/html.png";
 import node from "../assets/node.png";
