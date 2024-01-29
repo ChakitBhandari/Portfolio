@@ -33,7 +33,8 @@ const Work = () => {
         
         const response = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${repos[i].name}/contents/demoImage`,
                                     {headers: {Authorization: 'Bearer ' + process.env.REACT_APP_PAT}});
-
+        
+        let imageUrl = undefined;
         if(response.ok){
             const demoImageFolderContent = await response.json();
             
@@ -50,15 +51,17 @@ const Work = () => {
                 mainBranch = "master";
             }
 
-            projectsData.push({
-                name:repos[i].name,
-                github:repos[i].html_url,
-                demo:repos[i].homepage,
-                image:`https://raw.githubusercontent.com/${GITHUB_USERNAME}/${repos[i].name}/${mainBranch}/demoImage/${demoImage}`,
-            });
+            imageUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${repos[i].name}/${mainBranch}/demoImage/${demoImage}`;
         }else{
             console.error("Responded with " + response.status);
         }
+        
+        projectsData.push({
+            name:repos[i].name,
+            github:repos[i].html_url,
+            demo:repos[i].homepage,
+            image:imageUrl,
+        });
     }
 
     return projectsData;
@@ -123,20 +126,24 @@ const Work = () => {
                             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center 
                             items-center mx-auto w-full content-div"
                         >
+                            {!item.image && (
+                                <div className='text-2xl group-hover:hidden'>
+                                    Project
+                                </div>
+                            )}
+
                             {/* Hover effect for images */}
-                            <div className="opacity-0 group-hover:opacity-100 ">
+                            <div className="hidden group-hover:block group-hover:opacity-100">
                                 <span className="text-2xl font bold text-white tracking-wider ">
                                     {item?.name}
                                 </span>
                                 <div className="pt-8 text-center ">
-                                    {/* eslint-disable-next-line */}
                                     <a href={item?.github} target="_blank">
                                         <button 
                                         className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                             Code
                                         </button>
                                     </a>
-                                    {/* eslint-disable-next-line */}
                                     <a href={item?.demo} target="_blank">
                                         <button 
                                         className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
