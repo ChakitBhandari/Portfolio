@@ -21,22 +21,22 @@ export const GITHUB_USERNAME = "ChakitBhandari";
 /* Home Page */
 
 // Your Name
-export const homeName = "Chakit Bhandari";
+export const homePageName = "Chakit Bhandari";
 
 // Title
-export const homeTitle = "I'm a full stack developer";
+export const homePageTitle = "I'm a full stack developer";
 
 // Profile description
-export const homeDescription = "I'm a full stack developer specializing in building scalable products.";
+export const homePageDescription = "I'm a full stack developer specializing in building scalable products.";
 
 
 /* About Page */
 
 // Your first Name
-export const aboutName = "Chakit";
+export const aboutPageName = "Chakit";
 
 // Your description
-export const aboutDescription = `I am passionate about building excellent software that improves the lives of those around me.
+export const aboutPageDescription = `I am passionate about building excellent software that improves the lives of those around me.
                                 I'm pretty good at problem solving skills and have worked on different projects to learn new 
                                 things. Lately, I'm really into Large Language Models and AI/ML because they're growing so fast.
                                 I enjoy using my skills to create software that not only works well but also makes a positive 

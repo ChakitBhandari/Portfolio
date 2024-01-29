@@ -1,5 +1,5 @@
 import React from 'react'
-import { aboutName, aboutDescription } from '../data/data'
+import { aboutPageName, aboutPageDescription } from '../data/data'
 
 const About = () => {
   return (
@@ -18,11 +18,11 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right'>
                     <p className='text-4xl font-bold'>
-                        Hi, I'm {aboutName}, Nice to meet you. Please take a look around.
+                        Hi, I'm {aboutPageName}, Nice to meet you. Please take a look around.
                     </p>
                 </div>
                 <div>
-                    <p>{aboutDescription}</p> 
+                    <p>{aboutPageDescription}</p> 
                 </div>
             </div>
         </div>
