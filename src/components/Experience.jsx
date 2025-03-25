@@ -1,7 +1,4 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
-import { experiencePageDescription } from "../data/data";
 
 const Experience = () => {
   return (
