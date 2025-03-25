@@ -76,12 +76,15 @@ const Experience = () => {
                 Focused on making the API serverless and deploying it on AWS
                 Lambda for improved scalability and cost-efficiency by 96%.
               </li>
-              <li>
-                Used Docker to improve scalability and reduce OS dependencies.
-              </li>
+              <li>Used Docker to reduce OS dependencies.</li>
               <li>
                 Utilized JIRA as a project management tool, providing clear and
                 effective project oversight.
+              </li>
+              <li>
+                Actively participated in regular code reviews for pull requests
+                (PRs), facilitating a collaborative and constructive team
+                environment.
               </li>
             </ul>
           </div>
