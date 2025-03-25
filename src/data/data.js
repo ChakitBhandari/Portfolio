@@ -5,16 +5,18 @@ import node from "../assets/node.png";
 import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import css from "../assets/css.png";
-import python from "../assets/python.png"
-import cpp from "../assets/cpp.png"
+import python from "../assets/python.png";
+import cpp from "../assets/cpp.png";
 
 /* URLs */
-export const LINKEDIN_URL = "https://www.linkedin.com/in/chakit-bhandari-1085671a5/";
+export const LINKEDIN_URL =
+  "https://www.linkedin.com/in/chakit-bhandari-1085671a5/";
 export const GITHUB_URL = "https://github.com/Chakit22";
-export const RESUME_URL = "https://drive.google.com/file/d/169Aqso-XA1ML3s9ox6NlmjKsU63eBl3H/view?usp=drive_link";
+export const RESUME_URL =
+  "https://drive.google.com/file/d/169Aqso-XA1ML3s9ox6NlmjKsU63eBl3H/view?usp=drive_link";
 
 /* Email */
-export const EMAIL_ID = "chakitbhandari22@gmail.com"
+export const EMAIL_ID = "chakitbhandari22@gmail.com";
 
 /* Github profile username whoch contains the respective projects. */
 export const GITHUB_USERNAME = "ChakitBhandari";
@@ -28,8 +30,8 @@ export const homePageName = "Chakit Bhandari";
 export const homePageTitle = "I'm a full stack developer";
 
 // Profile description
-export const homePageDescription = "I'm a full stack developer specializing in building scalable products.";
-
+export const homePageDescription =
+  "I'm a full stack developer specializing in building scalable products.";
 
 /* About Page */
 
@@ -43,17 +45,16 @@ export const aboutPageDescription = `I am passionate about building excellent so
                                 I enjoy using my skills to create software that not only works well but also makes a positive 
                                 impact on people's lives.`;
 
-
 /* Skills */
 
 // Mention the Technologies you are proficient in.
 export const technologies = [
-            {name:"HTML",image:html}, 
-            {name:"CSS",image:css}, 
-            {name:"Javascript",image:javascript}, 
-            {name:"React",image:react}, 
-            {name:"NodeJS",image:node}, 
-            {name:"C++",image:cpp},
-            {name:"Python",image:python},
-            {name:"GitHub",image:github},
-        ];
+  { name: "HTML", image: html },
+  { name: "CSS", image: css },
+  { name: "Javascript", image: javascript },
+  { name: "React", image: react },
+  { name: "NodeJS", image: node },
+  { name: "C++", image: cpp },
+  { name: "Python", image: python },
+  { name: "GitHub", image: github },
+];
