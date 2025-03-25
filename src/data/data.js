@@ -1,19 +1,18 @@
 /* Import images of techstacks you're skilled at here. */
-import github from "../assets/github.png";
 import html from "../assets/html.png";
 import node from "../assets/node.png";
 import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
-import css from "../assets/css.png";
-import python from "../assets/python.png";
-import cpp from "../assets/cpp.png";
+import nextJs from "../assets/nextJs.png";
+import flutter from "../assets/flutter.png";
+import tailwind from "../assets/tailwind.png";
 
 /* URLs */
 export const LINKEDIN_URL =
   "https://www.linkedin.com/in/chakit-bhandari-1085671a5/";
 export const GITHUB_URL = "https://github.com/Chakit22";
 export const RESUME_URL =
-  "https://drive.google.com/file/d/169Aqso-XA1ML3s9ox6NlmjKsU63eBl3H/view?usp=drive_link";
+  "https://drive.google.com/file/d/1VljViD24HTqhRf3oYn3IPKndcZsvI5PE/view?usp=sharing";
 
 /* Email */
 export const EMAIL_ID = "chakitbhandari22@gmail.com";
@@ -27,34 +26,27 @@ export const GITHUB_USERNAME = "ChakitBhandari";
 export const homePageName = "Chakit Bhandari";
 
 // Title
-export const homePageTitle = "I'm a full stack developer";
+export const homePageTitle = "I'm a Software Developer";
 
 // Profile description
 export const homePageDescription =
-  "I'm a full stack developer specializing in building scalable products.";
+  "I'm a full stack developer with a strong passion for building scalable and efficient software solutions that make a real impact.";
 
 /* About Page */
 
-// Your first Name
 export const aboutPageName = "Chakit";
 
-// Your description
-export const aboutPageDescription = `I am passionate about building excellent software that improves the lives of those around me.
-                                I'm pretty good at problem solving skills and have worked on different projects to learn new 
-                                things. Lately, I'm really into Large Language Models and AI/ML because they're growing so fast.
-                                I enjoy using my skills to create software that not only works well but also makes a positive 
-                                impact on people's lives.`;
+export const aboutPageDescription = `I am a software developer dedicated to creating impactful and high-performance applications. With a strong foundation in problem solving, I’ve worked on a variety of projects ranging from mobile apps to full-stack systems, using technologies like Next.js, React, AWS. I’m committed to using my skills to develop software that not only performs well but also makes a positive difference in the world.`;
 
 /* Skills */
 
 // Mention the Technologies you are proficient in.
 export const technologies = [
   { name: "HTML", image: html },
-  { name: "CSS", image: css },
+  { name: "TailwindCSS", image: tailwind },
   { name: "Javascript", image: javascript },
   { name: "React", image: react },
+  { name: "Next.js", image: nextJs },
   { name: "NodeJS", image: node },
-  { name: "C++", image: cpp },
-  { name: "Python", image: python },
-  { name: "GitHub", image: github },
+  { name: "Flutter", image: flutter },
 ];
