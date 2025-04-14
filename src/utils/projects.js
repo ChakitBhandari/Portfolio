@@ -1,5 +1,23 @@
 export const projects = [
   {
+    name: "Forge",
+    demo: "https://forge-zeta.vercel.app/",
+    github: "https://github.com/Chakit22/forge",
+    image: "./assets/forge.png",
+  },
+  {
+    name: "Paper Trading App",
+    demo: "https://stocks-chakit22-3-ehog.vercel.app/",
+    github: "https://github.com/mac-projects-assessment/stocks-Chakit22-3",
+    image: "./assets/paper-trading-app.png",
+  },
+  {
+    name: "Portfolio",
+    demo: "https://tasky-eta-teal.vercel.app/",
+    github: "https://github.com/ChakitBhandari/Portfolio",
+    image: "./assets/portfolio.png",
+  },
+  {
     name: "To Do List",
     demo: "https://tasky-eta-teal.vercel.app/",
     github: "https://github.com/Chakit22/Tasky",
@@ -18,22 +36,10 @@ export const projects = [
     image: "./assets/dice-game.png",
   },
   {
-    name: "Portfolio",
-    demo: "https://tasky-eta-teal.vercel.app/",
-    github: "https://github.com/ChakitBhandari/Portfolio",
-    image: "./assets/portfolio.png",
-  },
-  {
     name: "Binge Watch",
     demo: "https://bingewatch-ff180.web.app/",
     github: "https://github.com/ChakitBhandari/BingeWatch",
     image: "./assets/binge-watch.png",
-  },
-  {
-    name: "Paper Trading App",
-    demo: "https://stocks-chakit22-3-ehog.vercel.app/",
-    github: "https://github.com/mac-projects-assessment/stocks-Chakit22-3",
-    image: "./assets/paper-trading-app.png",
   },
   {
     name: "Library Management System",
