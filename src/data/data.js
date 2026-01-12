@@ -8,9 +8,9 @@ import flutter from "../assets/flutter.png";
 import tailwind from "../assets/tailwind.png";
 
 /* URLs */
-export const LINKEDIN_URL =
-  "https://www.linkedin.com/in/chakit-bhandari-1085671a5/";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/chakit-bhandari";
 export const GITHUB_URL = "https://github.com/Chakit22";
+export const LEETCODE_URL = "https://leetcode.com/Chakit_Bhandari";
 export const RESUME_URL =
   "https://drive.google.com/file/d/1VljViD24HTqhRf3oYn3IPKndcZsvI5PE/view?usp=sharing";
 
@@ -26,17 +26,32 @@ export const GITHUB_USERNAME = "ChakitBhandari";
 export const homePageName = "Chakit Bhandari";
 
 // Title
-export const homePageTitle = "I'm a Software Developer";
+export const homePageTitle = "I'm an AI Full Stack Developer";
 
 // Profile description
 export const homePageDescription =
-  "I'm a full stack developer with a strong passion for building scalable and efficient software solutions that make a real impact.";
+  "I'm an AI Full Stack Developer passionate about building intelligent, scalable solutions. From voice AI agents to serverless architectures, I create software that makes a real impact.";
 
 /* About Page */
 
 export const aboutPageName = "Chakit";
 
-export const aboutPageDescription = `I am a software developer dedicated to creating impactful and high-performance applications. With a strong foundation in problem solving, I’ve worked on a variety of projects ranging from mobile apps to full-stack systems, using technologies like Next.js, React, AWS. I’m committed to using my skills to develop software that not only performs well but also makes a positive difference in the world.`;
+export const aboutPageDescription = `I am an AI Full Stack Developer dedicated to creating impactful and high-performance applications. With a strong foundation in problem solving (1000+ problems solved, Knight on LeetCode with max rating 1944), I've worked on AI-powered voice agents, crypto pricing engines, and full-stack systems using technologies like Next.js, React, AWS, and LLMs. I'm committed to building intelligent software that makes a positive difference in the world.`;
+
+/* Education */
+export const education = {
+  degree: "Master's of Information Technology",
+  institution: "RMIT University, Melbourne",
+  period: "2024 - 2025",
+};
+
+/* Achievements */
+export const achievements = [
+  "Secured 1st place in AI Agents Beginner Hackathon and presented at Microsoft Office, Melbourne",
+  "Bagged 3rd rank out of 200 participants in O(NlogN) University event",
+  "Solved 1000+ problems on various coding platforms",
+  "Knight on LeetCode (Max Rating: 1944), 3 star on CodeChef",
+];
 
 /* Skills */
 

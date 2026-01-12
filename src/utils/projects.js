@@ -1,9 +1,12 @@
 export const projects = [
   {
-    name: "Forge",
+    name: "Forge – AI Learning Assistant",
     demo: "https://forge-zeta.vercel.app/",
     github: "https://github.com/Chakit22/forge",
     image: "./assets/forge.png",
+    description:
+      "AI-powered tool with smart summaries, quizzes, mindmaps (React Flow), and speech-to-text notes. Built with Next.js, GPT-4o, Weaviate, and Whisper.",
+    featured: true,
   },
   {
     name: "Paper Trading App",

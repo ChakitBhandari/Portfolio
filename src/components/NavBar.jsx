@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import { LINKEDIN_URL, GITHUB_URL, RESUME_URL } from "../data/data";
+import { LINKEDIN_URL, GITHUB_URL } from "../data/data";
 
 // All the NAVBAR ITEMS
 const NAVBAR_ITEMS = [
@@ -11,8 +10,8 @@ const NAVBAR_ITEMS = [
   "About",
   "Skills",
   "Experience",
+  "Achievements",
   "Projects",
-  "Contact",
 ];
 
 // CONTACTS
@@ -28,12 +27,6 @@ const CONTACTS = [
     element: <FaGithub size={30} />,
     color: "#333333",
     link: GITHUB_URL,
-  },
-  {
-    name: "Resume",
-    element: <BsFillPersonLinesFill size={30} />,
-    color: "#565f69",
-    link: RESUME_URL,
   },
 ];
 
